@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+    int h,m,s,rs;
+    scanf("%d",&s);
+    rs=s%3600;
+    h=s/3600;
+    m=rs/60;
+    rs=rs%60;
+    printf("H:M:S-%d:%d:%d",h,m,rs);
+}
