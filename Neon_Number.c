@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int n,m,r,sn,s=0;
+    int n,m,sn,s=0,r;
     scanf("%d",&n);
     sn=n*n;
     m=sn;
@@ -10,12 +10,10 @@ int main()
         r=m%10;
         s=s+r;
         m=m/10;
-        
     }
     if(n==s)
     {
         printf("Neon Number");
-        
     }
     else
     {
